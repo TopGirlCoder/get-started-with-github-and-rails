@@ -12,9 +12,9 @@
 		<li>Under 'Description', describe your new repository.</li>
 		<li>Do not initialize with a 'README' and '.gitignore'. Rails will provide these files.</li>
 	</ol>
-	<li>Create a new Rails application</li>
+	<li>Create a new Rails application at the command line</li>
 	<ol>
-		<li>Go into your terminal window on your system.</li>
+		<li>Go into your terminal (shell) on your system.</li>
 		<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects.</li>
 		<li>Type into the terminal:</li>
 			<ol>
