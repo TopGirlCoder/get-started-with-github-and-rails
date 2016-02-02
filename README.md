@@ -4,6 +4,30 @@
 <p>Database: PostgrSQL</p>
 <h3>To dos</h3>
 <ol>
+	<li>Create a new repository on GitHub</li>
+	<ol>
+		<li>Go into your GitHub profile, click 'Repositories'.</li>
+		<li>Click the green button on the right 'New'.</li>
+		<li>Under 'Repository Name', give your new repository a name.</li>
+		<li>Under 'Description', describe your new repository.</li>
+		<li>Do not initialize with a 'README' and '.gitignore'. Rails will provide these files.</li>
+	</ol>
+	<li>Create a new Rails application</li>
+	<ol>
+		<li>Go into your terminal window on your system.</li>
+		<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects.</li>
+		<li>Type into the terminal:</li>
+			<ol>
+				<li>$ rails new <project name> --database=postgresql</li>
+				<li>$ bundle install</li>
+				<li>git init</li>
+				<li>git add .</li>
+				<li>git commit -m ‘Initial commit’</li>
+				<li>git status</li>
+				<li>git remote add origin https://github.com/<username>/<repository name>.git </li>
+				<li>git push -u origin master</li>
+			</ol>	
+	</ol>	
 	<li>Develop a Rails login and authentication system for users</li>
 	<ol>
 		<li>Create a data model for users of the site.</li>
