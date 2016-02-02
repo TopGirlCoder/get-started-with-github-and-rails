@@ -15,7 +15,7 @@
 	<li>Create a new Rails application at the command line</li>
 	<ol>
 		<li>Go into your terminal (shell) on your system.</li>
-		<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects.</li>
+		<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects. If you need to create a new directory called projects, use at the command line $ mkdir projects.</li>
 		<li>Type into the terminal:</li>
 			<ol>
 				<li>$ rails new <project name> --database=postgresql</li>
