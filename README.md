@@ -1,7 +1,7 @@
 <h1>tgc-website</h1>
 <p>Framework: Ruby on Rails</p>
 <p>Languages: Ruby, JavaScript, HTML, CSS</p>
-<p>Database: PostgrSQL</p>
+<p>Database: PostgreSQL</p>
 <h3>To dos</h3>
 <ol>
 	<li>Create a new repository on GitHub</li>
@@ -27,6 +27,7 @@
 				<li>git remote add origin https://github.com/[username]/[repository name].git </li>
 				<li>git push -u origin master</li>
 			</ol>	
+		<li>Open a new tab in the terminal, and run $ rails server. Use control-c to quit the server. Now you can see the project at http://localhost:3000.</li>	
 	</ol>	
 	<li>Develop a Rails login and authentication system for users</li>
 	<ol>
