@@ -24,7 +24,7 @@
 				<li>git add .</li>
 				<li>git commit -m ‘Initial commit’</li>
 				<li>git status</li>
-				<li>git remote add origin https://github.com/<username>/<repository name>.git </li>
+				<li>git remote add origin https://github.com/[username]/[repository name].git </li>
 				<li>git push -u origin master</li>
 			</ol>	
 	</ol>	
