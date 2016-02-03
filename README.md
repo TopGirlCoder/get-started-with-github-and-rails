@@ -4,7 +4,7 @@
 <p>Database: PostgreSQL</p>
 <h3>To dos</h3>
 <ol>
-	<li>Create a new repository on GitHub</li>
+	<li><del>Create a new repository on GitHub</del></li>
 	<ol>
 		<li>Go into your GitHub profile, click 'Repositories'.</li>
 		<li>Click the green button on the right 'New'.</li>
@@ -24,7 +24,7 @@
 				<li>git add .</li>
 				<li>git commit -m ‘Initial commit’</li>
 				<li>git status</li>
-				<li>git remote add origin https://github.com/[username]/[repository name].git </li>
+				<li>git remote add origin https://github.com/[username]/[repository].git </li>
 				<li>git push -u origin master</li>
 			</ol>	
 		<li>Open a new tab in the terminal, and run $ rails server. Use control-c to quit the server. Now you can see the project at http://localhost:3000.</li>	
