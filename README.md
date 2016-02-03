@@ -4,30 +4,30 @@
 <p>Database: PostgreSQL</p>
 <h3>To dos</h3>
 <ol>
-	<li><del>Create a new repository on GitHub</del></li>
+	<li><del>Create a new repository on GitHub:</del></li>
 	<ol>
-		<li>Go into your GitHub profile, click 'Repositories'.</li>
-		<li>Click the green button on the right 'New'.</li>
-		<li>Under 'Repository Name', give your new repository a name.</li>
-		<li>Under 'Description', describe your new repository.</li>
-		<li>Do not initialize with a 'README' and '.gitignore'. Rails will provide these files.</li>
+		<li><del>Go into your GitHub profile, click 'Repositories'.</del></li>
+		<li><del>Click the green button on the right 'New'.</del></li>
+		<li><del>Under 'Repository Name', give your new repository a name.</del></li>
+		<li><del>Under 'Description', describe your new repository.</del></li>
+		<li><del>Do not initialize with a 'README' and '.gitignore'. Rails will provide these files.</del></li>
 	</ol>
-	<li>Create a new Rails application at the command line</li>
+	<li><del>Create a new Rails application at the command line:</del></li>
 	<ol>
-		<li>Go into your terminal (shell) on your system.</li>
-		<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects. If you need to create a new directory called projects, use at the command line $ mkdir projects.</li>
-		<li>Type into the terminal:</li>
+		<li><del>Go into your terminal (shell) on your system.</del></li>
+		<li><del>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects. If you need to create a new directory called projects, use at the command line $ mkdir projects.</del></li>
+		<li><del>Type into the terminal:</del></li>
 			<ol>
-				<li>$ rails new <project name> --database=postgresql</li>
-				<li>$ bundle install</li>
-				<li>git init</li>
-				<li>git add .</li>
-				<li>git commit -m ‘Initial commit’</li>
-				<li>git status</li>
-				<li>git remote add origin https://github.com/[username]/[repository].git </li>
-				<li>git push -u origin master</li>
+				<li><del>$ rails new <project name> --database=postgresql</del></li>
+				<li><del>$ bundle install</del></li>
+				<li><del>git init</del></li>
+				<li><del>git add .</del></li>
+				<li><del>git commit -m ‘Initial commit’</del></li>
+				<li><del>git status</del></li>
+				<li><del>git remote add origin https://github.com/[username]/[repository].git</del></li>
+				<li><del>git push -u origin master</del></li>
 			</ol>	
-		<li>Open a new tab in the terminal, and run $ rails server. Use control-c to quit the server. Now you can see the project at http://localhost:3000.</li>	
+		<li><del>Open a new tab in the terminal, and run $ rails server. Now you can see the project at http://localhost:3000. (When ready to quit the server, use control-c.)</del></li>	
 	</ol>	
 	<li>Develop a Rails login and authentication system for users</li>
 	<ol>
