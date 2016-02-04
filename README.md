@@ -4,10 +4,10 @@
 <p>Database: PostgreSQL</p>
 <h3>Getting started</h3>
 
-<h3><a name="gettingstarted">Getting started: GitHub and Rails</a></h3>
-<h3><a name="userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
-
 <h3><a href="#gettingstarted">Getting started: GitHub and Rails</a></h3>
+<h3><a href="#userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
+
+<h3><a name="gettingstarted">Getting started: GitHub and Rails</a></h3>
 <ol>
 	<li>Create a new repository on GitHub</li>
 	<ol>
@@ -36,7 +36,7 @@
 	</ol>
 </ol>
 <ol>		
-	<h3><a href="#userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
+	<h3><a name="userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
 	<ol>
 		<li>Create a data model for users of the site.</li>
 		<li>Find a way to store the users data.</li>
