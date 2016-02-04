@@ -10,7 +10,7 @@
 </ol>
 
 <ol>
-	<li><h3><a name="gettingstarted">Getting started: GitHub and Rails</a></h3></li>
+	<h3><li><a name="gettingstarted">Getting started: GitHub and Rails</a></li></h3>
 	<ol>
 		<li>Create a new repository on GitHub</li>
 		<ol>
