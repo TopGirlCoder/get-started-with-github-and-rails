@@ -2,41 +2,43 @@
 <p>Framework: Ruby on Rails</p>
 <p>Languages: Ruby, JavaScript, HTML, CSS</p>
 <p>Database: PostgreSQL</p>
-<h3>Getting started</h3>
 
-<h3><a href="#gettingstarted">Getting started: GitHub and Rails</a></h3>
-<h3><a href="#userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
-
-<h3><a name="gettingstarted">Getting started: GitHub and Rails</a></h3>
+<h3>Contents</h3>
 <ol>
-	<li>Create a new repository on GitHub</li>
-	<ol>
-		<li>Go into your GitHub profile, click 'Repositories'.</li>
-		<li>Click the green button on the right 'New'.</li>
-		<li>Under 'Repository Name', give your new repository a name.</li>
-		<li>Under 'Description', describe your new repository.</li>
-		<li>Do not initialize with a 'README' and '.gitignore'. Rails will provide these files.</li>
-	</ol>
-	<li>Create a new Rails application at the command line</li>
-	<ol>
-		<li>Go into your terminal (shell) on your system.</li>
-		<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects. If you need to create a new directory called projects, use at the command line $ mkdir projects.</li>
-		<li>Type into the terminal:</li>
-			<ol>
-				<li>$ rails new <project name> --database=postgresql</li>
-				<li>$ bundle install</li>
-				<li>git init</li>
-				<li>git add .</li>
-				<li>git commit -m ‘Initial commit’</li>
-				<li>git status</li>
-				<li>git remote add origin https://github.com/[username]/[repository].git </li>
-				<li>git push -u origin master</li>
-			</ol>	
-		<li>Open a new tab in the terminal, and run $ rails server. Use control-c to quit the server. Now you can see the project at http://localhost:3000.</li>	
-	</ol>
+	<li><a href="#gettingstarted">Getting started: GitHub and Rails</a>
+	<li><a href="#userauthentication">Users: Develop a Rails login and authentication system for users</a></li>
 </ol>
-<ol>		
-	<h3><a name="userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
+
+<ol>
+	<li><h3><a name="gettingstarted">Getting started: GitHub and Rails</a></h3></li>
+	<ol>
+		<li>Create a new repository on GitHub</li>
+		<ol>
+			<li>Go into your GitHub profile, click 'Repositories'.</li>
+			<li>Click the green button on the right 'New'.</li>
+			<li>Under 'Repository Name', give your new repository a name.</li>
+			<li>Under 'Description', describe your new repository.</li>
+			<li>Do not initialize with a 'README' and '.gitignore'. Rails will provide these files.</li>
+		</ol>
+		<li>Create a new Rails application at the command line</li>
+		<ol>
+			<li>Go into your terminal (shell) on your system.</li>
+			<li>Navigate to the directory that will eventually contain your Rails app. Use 'cd' to get there, i.e. $ cd desktop/projects. If you need to create a new directory called projects, use at the command line $ mkdir projects.</li>
+			<li>Type into the terminal:</li>
+				<ol>
+					<li>$ rails new <project name> --database=postgresql</li>
+					<li>$ bundle install</li>
+					<li>git init</li>
+					<li>git add .</li>
+					<li>git commit -m ‘Initial commit’</li>
+					<li>git status</li>
+					<li>git remote add origin https://github.com/[username]/[repository].git </li>
+					<li>git push -u origin master</li>
+				</ol>	
+			<li>Open a new tab in the terminal, and run $ rails server. Use control-c to quit the server. Now you can see the project at http://localhost:3000.</li>	
+		</ol>
+	</ol>	
+	<h3><li><a name="userauthentication">Users: Develop a Rails login and authentication system for users</a></li></h3>
 	<ol>
 		<li>Create a data model for users of the site.</li>
 		<li>Find a way to store the users data.</li>
@@ -53,4 +55,4 @@
 			<li>Test for valid and invalid cases.</li>
 		</ol>	
 	</ol>
-</ol>
+</ol>	
