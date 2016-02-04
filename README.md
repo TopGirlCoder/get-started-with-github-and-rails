@@ -2,7 +2,12 @@
 <p>Framework: Ruby on Rails</p>
 <p>Languages: Ruby, JavaScript, HTML, CSS</p>
 <p>Database: PostgreSQL</p>
-<h3>To dos</h3>
+<h3>Getting started</h3>
+
+<h3><a name="gettingstarted">Getting started: GitHub and Rails</a></h3>
+<h3><a name="userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
+
+<h3><a href="#gettingstarted">Getting started: GitHub and Rails</a></h3>
 <ol>
 	<li>Create a new repository on GitHub</li>
 	<ol>
@@ -28,8 +33,10 @@
 				<li>git push -u origin master</li>
 			</ol>	
 		<li>Open a new tab in the terminal, and run $ rails server. Use control-c to quit the server. Now you can see the project at http://localhost:3000.</li>	
-	</ol>	
-	<li>Develop a Rails login and authentication system for users</li>
+	</ol>
+</ol>
+<ol>		
+	<h3><a href="#userauthentication">Users: Develop a Rails login and authentication system for users</a></h3>
 	<ol>
 		<li>Create a data model for users of the site.</li>
 		<li>Find a way to store the users data.</li>
