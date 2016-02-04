@@ -35,7 +35,11 @@
 					<li>git remote add origin https://github.com/[username]/[repository].git </li>
 					<li>git push -u origin master</li>
 				</ol>	
-			<li>Open a new tab in the terminal, and run $ rails server. Now you can see the project at http://localhost:3000. When you're ready to quit, use control-c to quit the server. If the terminal gets closed inadvertently before quiting the server, you'll need to open a new terminal window and hunt down the process that is still running by typing into the command line: $ ps aux | grep rails. This will give you some PID number (like 45345) that you will then type into the command line: $ kill -9 [PIDnumber]. Alternatively, find the number by typing into the command line: $ lsof -wni tcp:3000. The port is typically 3000, but you'll want to change this if it is some other localhost. See the PID number in the PID column, then type into the command line: $ kill -9 [PIDnumber].</li>
+			<li>Open a new tab in the terminal, and run $ rails server. Now you can see the project at http://localhost:3000. When you're ready to quit, use control-c to quit the server.</li> 
+			<ol>
+				<li>If the terminal gets closed inadvertently before quiting the server, you'll need to open a new terminal window and hunt down the process that is still running by typing into the command line: $ ps aux | grep rails. This will give you some PID number (like 45345) that you will then type into the command line: $ kill -9 [PIDnumber].</li> 
+				<li>Alternatively, find the number by typing into the command line: $ lsof -wni tcp:3000. The port is typically 3000, but you'll want to change this if it is some other localhost. See the PID number in the PID column, then type into the command line: $ kill -9 [PIDnumber].</li>
+			</ol>	
 		</ol>
 	</ol>	
 	<h3><li><a name="userauthentication">Users: Develop a Rails login and authentication system for users</a></li></h3>
