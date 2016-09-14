@@ -1,4 +1,4 @@
-<h1>How to make a new Github repository for new Rails project</h1>
+<h1>How to make a new Github repository and new Rails project</h1>
 <p>Framework: Ruby on Rails</p>
 <p>Languages: Ruby, JavaScript, HTML, CSS</p>
 <p>Database: PostgreSQL</p>
